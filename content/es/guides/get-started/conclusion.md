@@ -1,93 +1,93 @@
 ---
-title: Conclusion
-description: Congratulations you have now created your first Nuxt.js app and you may now consider yourself a Nuxter. But there is so much more to learn and so much more you can do with Nuxt.js. Here are a few recommendations.
+title: Conclusión
+description: Felicitaciones, ahora que has creado tu primera aplicación Nuxt.js puedes considerarte un Nuxter. Aunque hay muchas más cosas por aprender y que puedes hacer con Nuxt.js. Estas son algunas recomendaciones.
 position: 4
 category: get-started
 questions:
-  - question: What is the name of the directory you need to have for Nuxt.js to work?
+  - question: ¿Cuál es el nombre del directorio que necesitas tener para que funcione Nuxt.js?
     answers:
       - nuxt
       - pages
       - index
     correctAnswer: pages
-  - question: What is the name of your project ID file?
+  - question: ¿Cuál es el nombre del archivo de identificación de tu proyecto?
     answers:
       - package.vue
       - package.json
       - package.js
     correctAnswer: package.json
-  - question: What is the command you type in the terminal to launch your Nuxt.js project?
+  - question: ¿Cuál es el comando que se escribe en la terminal para iniciar tu proyecto Nuxt.js?
     answers:
       - npm dev
       - npm run dev
       - nuxt dev
     correctAnswer: npm run dev
-  - question: What is the address in the browser where you can see your page in development mode?
+  - question: ¿Cuál es la dirección del navegador en la cual puedes ver tu página en modo de desarrollo?
     answers:
       - http://localhost:3000/
       - http://localhost:3000/project-name:3000
       - http://localhost:3000/nuxt:3000/
     correctAnswer: http://localhost:3000/
-  - question: Where do you put your configuration in?
+  - question: ¿En dónde pones tu configuración?
     answers:
       - nuxt.config.json
       - config.js
       - nuxt.config.js
     correctAnswer: nuxt.config.js
-  - question: Which directory is not suitable for `.vue` files?
+  - question: ¿Qué directorio no es adecuado para archivos `.vue`?
     answers:
       - pages
       - static
       - components
     correctAnswer: static
-  - question: In which directory do you put your styles?
+  - question: ¿En qué directorio colocas tus estilos?
     answers:
       - styles
       - components
       - assets
     correctAnswer: assets
-  - question: In which directory do we put a robots.txt or favicon?
+  - question: ¿En qué directorio colocamos un archivo robots.txt o favicon?
     answers:
       - assets
       - components
       - static
     correctAnswer: static
-  - question: What component do we use to navigate between pages?
+  - question: ¿Qué componente usamos para navegar entre páginas?
     answers:
       - '<Nuxt>'
       - '<RouterLink>'
       - '<NuxtLink>'
     correctAnswer: '<NuxtLink>'
-  - question: '`<NuxtLink>` is used for internal links that belong to the Nuxt.js app?'
+  - question: '`¿<NuxtLink>` se usa para enlaces internos que pertenecen a la aplicación Nuxt.js?'
     answers:
       - True
       - False
     correctAnswer: True
 ---
 
-Congratulations! You have now created your first Nuxt.js app and you may now consider yourself a Nuxter, but there is so much more to learn and so much more you can do with Nuxt.js. Here are a few recommendations:
+Felicitaciones, ahora que has creado tu primera aplicación Nuxt.js puedes considerarte un Nuxter. Aunque hay muchas más cosas por aprender y que puedes hacer con Nuxt.js. Estas son algunas recomendaciones:
 
 <base-alert type="next">
 
-Check out the [Concepts book](../concepts/views)
+Consulta el [libro de conceptos](../concepts/views)
 
 </base-alert>
 
 <base-alert type="next">
 
-Working with [asyncData](/guides/features/data-fetching#async-data)
+Trabajando con [asyncData](/guides/features/data-fetching#async-data)
 
 </base-alert>
 
 <base-alert type="next">
 
-Choosing between different [Rendering modes](/guides/features/rendering-modes)
+Elegir entre diferentes [modos de renderizado](/guides/features/rendering-modes)
 
 </base-alert>
 
 <base-alert type="star">
 
-Did you like Nuxt.js so far? Don't forget to [star our project](https://github.com/nuxt/nuxt.js) on GitHub
+¿Te gustó Nuxt.js hasta ahora? No olvides [destacar nuestro proyecto](https://github.com/nuxt/nuxt.js) en GitHub
 
 </base-alert>
 

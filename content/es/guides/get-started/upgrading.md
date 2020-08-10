@@ -1,13 +1,13 @@
 ---
-title: Upgrading
-description: Upgrading Nuxt.js is quick, but more involved than updating your package.json
+title: Actualizar
+description: Actualizar Nuxt.js es rápido, aunque más complicado que actualizar tu package.json
 position: 5
 category: get-started
 ---
 
-> Upgrading Nuxt.js is quick, but more involved than updating your package.json
+> Actualizar Nuxt.js es rápido, aunque más complicado que actualizar tu package.json
 
-If you are upgrading to Nuxt v2.14 and want to use static hosting then you will need to add [target:static](/guides/features/deployment-targets#static-hosting) to your nuxt.config.js file in order for the generate command to work properly.
+Si estás actualizando a Nuxt v2.14 y quieres utilizar alojamiento estático, deberás agregar [target: static](/guides/features/deployment-targets#static-hosting) a tu archivo `nuxt.config.js` para que el comando `generate` funcione correctamente.
 
 ```js{}[nuxt.config.js]
 export default {
@@ -15,23 +15,23 @@ export default {
 }
 ```
 
-## Getting Started
+## Comenzando
 
-1. Check the [release notes](/guide/release-notes) for the version you wish to upgrade to see if there are any additional instructions for that particular release.
-2. Update the version specified for the `nuxt` package in your `package.json` file.
+1. Revisa las [notas de la versión](/guide/release-notes) a la que quieres actualizar para ver si hay instrucciones adicionales para esa versión en particular.
+2. Actualiza la versión especificada para el paquete `nuxt` en tu archivo `package.json`.
 
-After this step instructions vary depending upon whether you are using Yarn or NPM. _[Yarn](https://yarnpkg.com/en/docs/usage) is the preferred package manager for working with Nuxt as it is the development tool which tests have been written against._
+Después de este paso, las instrucciones varían dependiendo de si estás utilizando Yarn o NPM. _[Yarn](https://yarnpkg.com/en/docs/usage) es el administrador de paquetes preferido para trabajar con Nuxt, ya que es la herramienta de desarrollo con la cual se han escrito las pruebas._
 
 ## Yarn
 
-3. remove `yarn.lock` file
-4. remove `node_modules` directory
-5. Run the `yarn` command
-6. After installation has completed and you have run your tests consider upgrading other dependencies as well. The `yarn outdated` command can be used.
+3. Elimina el archivo `yarn.lock`
+4. Elimina el directorio `node_modules`
+5. Ejecuta el comando `yarn`
+6. Una vez completada la instalación y ejecutadas las pruebas, considera también actualizar otras dependencias. Se puede usar el comando `yarn outdated`.
 
 ## NPM
 
-3. remove `package-lock.json` file
-4. remove `node_modules` directory
-5. Run the `npm install` command
-6. After installation has completed and you have run your tests consider upgrading other dependencies as well. The `npm outdated` command can be used.
+3. Elimina el archivo `package-lock.json`
+4. Elimina el directorio `node_modules`
+5. Ejecuta el comando `npm install`
+6. Una vez completada la instalación y ejecutadas las pruebas, considera también actualizar otras dependencias. Se puede usar el comando `npm outdated`.
