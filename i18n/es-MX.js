@@ -7,7 +7,7 @@ module.exports = {
     search: 'Buscar',
     version: 'Versión'
   },
-  iso: 'en',
+  iso: 'es-MX',
 
   links: {
     download: 'Descargar',
