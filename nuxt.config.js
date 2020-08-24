@@ -73,6 +73,21 @@ export default {
     'vue-scrollto/nuxt'
   ],
 
+  pwa: {
+    manifest: {
+      name: 'NuxtJS',
+      start_url: '/',
+      icons: [
+        {
+          src: '/icon.png',
+          type: 'image/png',
+          sizes: '512x512',
+          purpose: 'any maskable'
+        }
+      ]
+    }
+  },
+
   // Auto import components, see https://github.com/nuxt/components
   components: true,
   colorMode: {
@@ -176,6 +191,7 @@ export default {
         name: 'Indonesian',
         domain: 'https://id.nuxtjs.org'
       },
+<<<<<<< HEAD
       {
         code: 'es',
         iso: 'es-MX',
@@ -183,6 +199,22 @@ export default {
         name: 'Español',
         domain: 'https://es.nuxtjs.org'
       }
+=======
+      //{
+       // code: 'tr',
+       // iso: 'tr-TR',
+       // file: 'tr-TR.js',
+       // name: 'Türkçe',
+       // domain: 'https://tr.nuxtjs.org'
+      // }
+      // {
+      //   code: 'es',
+      //   iso: 'es-ES',
+      //   file: 'es-ES.js',
+      //   name: 'Español',
+      //   domain: 'https://es.nuxtjs.org'
+      // }
+>>>>>>> master
     ],
     vueI18n: {
       fallbackLocale: 'en'
