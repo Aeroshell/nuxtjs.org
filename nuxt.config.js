@@ -191,7 +191,6 @@ export default {
         name: 'Indonesian',
         domain: 'https://id.nuxtjs.org'
       },
-<<<<<<< HEAD
       {
         code: 'es',
         iso: 'es-MX',
@@ -199,22 +198,13 @@ export default {
         name: 'Español',
         domain: 'https://es.nuxtjs.org'
       }
-=======
-      //{
-       // code: 'tr',
-       // iso: 'tr-TR',
-       // file: 'tr-TR.js',
-       // name: 'Türkçe',
-       // domain: 'https://tr.nuxtjs.org'
-      // }
       // {
-      //   code: 'es',
-      //   iso: 'es-ES',
-      //   file: 'es-ES.js',
-      //   name: 'Español',
-      //   domain: 'https://es.nuxtjs.org'
+      // code: 'tr',
+      // iso: 'tr-TR',
+      // file: 'tr-TR.js',
+      // name: 'Türkçe',
+      // domain: 'https://tr.nuxtjs.org'
       // }
->>>>>>> master
     ],
     vueI18n: {
       fallbackLocale: 'en'
